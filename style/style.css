@@ -54,7 +54,7 @@ header > h1 {
 header > p {
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+    font-size: 1.5em;
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
@@ -76,6 +76,8 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 7px;
 }
 
 nav > a:hover {
@@ -103,7 +105,7 @@ main h1 {
 main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
-    font-size: 1.3em;
+    font-size: 1.6em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
     font-weight: normal;
@@ -115,14 +117,6 @@ main img {
 
 main h3 {
     font-family: var(--fonte-android);
-}
-
-footer {
-    background-color: var(--cor5);
-    color: white;
-    margin: 30px;
-    text-align: center;
-    font-size: 0.8em;
 }
 
 main img.pequena {
@@ -158,28 +152,8 @@ main a {
     padding: 2px 6px;
 }
 
-#oi {
-    font-family: var(--fonte-android);
-    color: var(--cor4);
-    font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    text-indent: 8px;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-
-}
-
-footer a:hover {
-    text-decoration: underline;
-    color: var(--cor1);
-}
-
 aside {
-    background-color: var(--cor1);
+    background-color:#83e1ad86;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.432);
@@ -194,10 +168,35 @@ aside > ul {
 aside > h3 {
     background-color: var(--cor4);
     color:white;
+    font-family: var(--fonte-padrao);
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
 }
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 1.0em;
+    padding: 12px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+
 
 a.externo::after {
     content: '\00A0\1F517';
